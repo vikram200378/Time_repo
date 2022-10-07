@@ -60,9 +60,7 @@ function Tick() {
 
         <>
             <div className="clock">
-
                 <h2>{new Date().toLocaleTimeString()}</h2>
-
             </div>
             <div className="imagespostion">
                 <img src={Imgaes[ImagesState]} />
