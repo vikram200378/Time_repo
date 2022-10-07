@@ -1,25 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
+import ReactDOM from "react-dom";
+import Tick from './tick';
 
-function App() {
+
+export default function App() {
+  //   const user = {
+  //     firstName: 'Vikram',
+  //     lastName: 'Rajput'
+  //   };
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      {/* <h2> Hello{user.firstName + ' ' + user.lastName}
+
+      </h2> */}
+      <Tick />
+    </>
+
+  )
 }
 
-export default App;
